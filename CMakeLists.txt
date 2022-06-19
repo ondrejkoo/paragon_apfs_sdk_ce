@@ -1,3 +1,6 @@
+# Set the minimum required version of cmake for a project.
+cmake_minimum_required(VERSION 2.8)
+
 # Disallow source modifications.
 set(CMAKE_DISABLE_SOURCE_CHANGES ON)
 
