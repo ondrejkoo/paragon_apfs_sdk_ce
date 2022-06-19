@@ -1,3 +1,6 @@
+# Set the minimum required version of cmake for a project.
+cmake_minimum_required(VERSION 2.8)
+
 # Disallow source modifications.
 set(CMAKE_DISABLE_SOURCE_CHANGES ON)
 
@@ -22,9 +25,6 @@ set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_LIST_DIR}/../${_project_name}.bin
 # Specifies the available build types on multi-config generators.
 set(CMAKE_CONFIGURATION_TYPES Debug RelWithDebInfo
     CACHE INTERNAL "Allowed configuration types.")
-
-# Set a name, version, and enable languages for the entire project.
-project(${_project_name} CXX)
 
 # Project version.
 set(${_project_name}_major 1)

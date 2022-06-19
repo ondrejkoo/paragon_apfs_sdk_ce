@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\apfsutil.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\apfsutil.dir/objects.a @CMakeFiles\apfsutil.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe -pipe -std=c++98 -Wall -Wstrict-aliasing -Wno-unused-local-typedefs -fPIC -fno-common -fmerge-all-constants -fstrict-aliasing -fno-exceptions -fno-asynchronous-unwind-tables -Wno-format -Wno-unknown-pragmas  -O3 -Wl,--whole-archive CMakeFiles\apfsutil.dir/objects.a -Wl,--no-whole-archive -o bin\apfsutil.exe -Wl,--out-implib,libapfsutil.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\apfsutil.dir\linklibs.rsp
